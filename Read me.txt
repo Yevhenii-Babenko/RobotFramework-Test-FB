@@ -1,0 +1,17 @@
+Hi!
+
+To Run this task just put this command to your cmd:
+    robot fb.robot
+
+There is a real gmail account for fictional robot 
+    with login and password;
+
+You should have chromedriver which is compatible with your version of Chrome Browser
+    https://chromedriver.chromium.org/downloads
+
+
+This task performs the following test cases:
+    - Go to FB login page and log in;
+    - Go to FB search and find friend;
+    - It doesn't perform: "Add to friend", because there is some fail with right locator;
+    - Send a message to him: "Hello :) My name is Robot, I'm ready to help you with robotic tasks.
